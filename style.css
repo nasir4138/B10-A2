@@ -22,7 +22,7 @@
   body{
     background: linear-gradient(180.00deg, #111111,rgba(75, 70, 70, 0.842) 100%);
     background-repeat: no-repeat;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
 
   }
@@ -206,4 +206,67 @@
     width: 100%;
     border-radius: 18px;
   }
- 
+  /* run extra container end  */
+  .bmi-cal{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 80px 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bmi-cal-chart{
+    
+    margin: 0 auto;
+    display: flex;
+
+    border: 2px solid red;
+  }
+  .cal-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 175px;
+
+  }
+  .cal-table{
+    width: 40%;
+    text-align: center;
+  }
+  .cal-table h2{
+    margin-bottom: 3rem;
+  }
+  .cal-h2-font{
+    color: aliceblue;
+    font-size: 1.75em;
+    font-weight: 900;
+    margin-right:3rem ;
+    
+  }
+  table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 300px;
+    border: 1px solid #555;
+}
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #998c8c67;
+}
+th {
+    background-color: #444;
+    color: #fff;
+}
+td {
+    background-color: #666;
+    color: #fff;
+}
+
+  .cal-ur-bmi{
+    width: 60%;
+  }
+
+  .form-container{
+    
+  }
