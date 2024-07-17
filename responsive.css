@@ -1,6 +1,8 @@
 @media screen and (max-width:576px) {
 
-    .header-container{
+    .header-container , 
+    .change-habit-container, 
+    .run-extra-container {
         flex-direction: column;
     }
     .menu-item{
@@ -36,5 +38,9 @@
         flex-direction: column;
         gap: 20px;
     }
+    .run-extra-container-img{
+        width: 100%;
+        margin-top: 20px;
+      }
    
 }
