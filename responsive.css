@@ -62,7 +62,7 @@
       }
       .cal-table{
         align-items: center;
-        width: 100%;
+        /* width: 100%; */
       }
       .cal-table h2{
         text-wrap: nowrap;
@@ -70,6 +70,7 @@
       }
       .cal-container{
         align-items: center;
+        
         
 
       }
