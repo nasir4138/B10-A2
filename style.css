@@ -220,32 +220,30 @@
     margin: 0 auto;
     display: flex;
 
-    border: 2px solid red;
+    
   }
   .cal-container{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 175px;
+    
 
   }
   .cal-table{
-    width: 40%;
-    text-align: center;
+    
+    
   }
-  .cal-table h2{
-    margin-bottom: 3rem;
-  }
+ 
   .cal-h2-font{
     color: aliceblue;
     font-size: 1.75em;
     font-weight: 900;
-    margin-right:3rem ;
+    
     
   }
   table {
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 30px 0;
     font-size: 1em;
     min-width: 300px;
     border: 1px solid #555;
@@ -266,7 +264,31 @@ td {
   .cal-ur-bmi{
     width: 60%;
   }
+  .cal-ur-bmi h2{
+    margin-bottom: 20px;
+  }
 
   .form-container{
-    
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .full-width{
+    grid-column: span 2;
+  }
+  input, select {
+    width: 100%;
+    padding:15px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: white;
+    font-size: 1em;
+  }
+  select{
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
   }

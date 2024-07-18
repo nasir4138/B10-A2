@@ -2,7 +2,7 @@
 
     .header-container , 
     .change-habit-container, 
-    .run-extra-container {
+    .run-extra-container,.cal-container {
         flex-direction: column;
     }
     .menu-item{
@@ -42,5 +42,17 @@
         width: 100%;
         margin-top: 20px;
       }
-   
+      .cal-table{
+        align-items: center;
+        
+      }
+      .cal-table h2{
+        text-wrap: nowrap;
+    
+      }
+      .cal-container{
+        align-items: center;
+        
+
+      }
 }
