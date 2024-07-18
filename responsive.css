@@ -29,6 +29,24 @@
     .great-vibes-regular{
         font-size: 4rem;
     }
+    .workout-videos{
+        
+       width:50%;
+        right: 15px;
+        top: 30px;
+
+    }
+    .workout-videos h1{
+        font-size: 2rem;
+        font-weight: 600;
+
+    }
+    .video-tutorial-logo{
+        width: 50%;
+        left: 30px;
+        top: 280px;
+
+    }
 
     .change-habit-container{
         display: flex;

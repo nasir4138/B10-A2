@@ -95,7 +95,7 @@
   }
   /* nav section end here  */
   .header-container{
-    /* border: 2px solid red; */
+    
     margin: 0 auto;
     margin-top: 32px;
     display: flex;
@@ -132,7 +132,7 @@
     position: relative;
   }
   .workout-videos{
-    width: 60%;;
+    width: 60%;
     max-height: 120px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
