@@ -76,4 +76,11 @@
         
 
       }
+      /* meet our team  */
+      .meet-team-heading {
+        margin: 0 20px;
+      }
+      .meet-team-container-card{
+        grid-template-columns: 1fr;
+      }
 }
