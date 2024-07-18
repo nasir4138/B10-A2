@@ -22,12 +22,14 @@
     .headline h1{
         
         font-size: 2rem;
+        line-height: 50px;
         
         
     }
    
-    .great-vibes-regular{
-        font-size: 4rem;
+    .miama-font{
+        font-size: 5rem;
+        font-weight: 300;
     }
     .workout-videos{
         
