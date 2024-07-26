@@ -22,8 +22,8 @@
   }
   body{
     
-    background: linear-gradient(180.00deg, #111111,rgba(15, 15, 15, 0.959) 100%);
-    background-color: black;
+    background: linear-gradient(180.00deg, #111111,rgba(15, 15, 15, 0.95) 100%);
+    /* background-color: black; */
     background-repeat: no-repeat;
     /* max-width: 1440px; */
     margin: 0 auto;
@@ -32,8 +32,9 @@
   .btn-primary{
     color: white;
     text-align: center;
+    
     border: none;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 16px 40px 16px 40px;
     border-radius: 42px;
@@ -122,9 +123,10 @@
     margin-bottom: 1.75rem;
   }
   .header-btn{
-    width: 100%;
+    /* max-width: 100%; */
     display: flex;
     gap: 14px;
+    position: relative;
   }
   .black-btn{
     background-color: #111111b2;

@@ -11,6 +11,7 @@
     }
     .icon-bar{
         display: block;
+        margin-right: 10px;
     }
     .navbar{
         justify-content: space-between;
@@ -32,10 +33,24 @@
         font-size: 5rem;
         font-weight: 300;
     }
+    .header-btn{
+        margin-right: 15px;
+      
+        display: flex;
+        justify-content:space-around;
+        height: 55px;
+        
+    }
+    .club-hide{
+        display: none;
+    }
+    .header-container-img{
+        margin-top: 45px;
+    }
     .workout-videos{
         
-       width:50%;
-        right: 15px;
+        width:40%;
+        right: 70px;
         top: 30px;
 
     }
@@ -84,6 +99,7 @@
       .meet-team-container-card{
         grid-template-columns: 1fr;
       }
+
       /* footer  */
       .footer{
         margin-left: 20px;
