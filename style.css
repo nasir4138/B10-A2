@@ -62,7 +62,7 @@
     margin: 0 auto;
     margin-top: 55px;
   }
-  .navbar h1{
+  .heading-name{
     font-size: 2.25rem;
     font-weight: 800;
     color:rgb(230, 83, 60) ;
@@ -267,6 +267,7 @@
     border-radius: 18px;
   }
   /* run extra container end  */
+  /* bmi calculator chart start here  */
   .bmi-cal{
     
     display: flex;
@@ -289,12 +290,9 @@
     
 
   }
-  .cal-table{
-    
-    
-  }
  
-  .cal-h2-font{
+ 
+  .cal-h3-font{
     color: aliceblue;
     font-size: 1.75em;
     font-weight: 900;
@@ -378,6 +376,7 @@ td {
     max-width: 1200px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 80px;
   }
   .profile-card {
     position: relative;
@@ -420,4 +419,67 @@ td {
     width: 100%;
     height: 100%;
     
+}
+/* main section end here  */
+
+/* footer  */
+/* footer{
+  background: rgba(255, 255, 255, 0.1);
+  padding-top: 80px;
+} */
+.footer-head{
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 4.4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.footer{
+  max-width: 1260px;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.footer-list{
+  list-style: none;
+}
+.footer-list a{
+  text-decoration: none;
+  margin-top: 30px;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1.4rem;
+  font-weight: 400;
+  
+}
+.footer-list li{
+  margin: 20px 0;
+  
+}
+.hr-line{
+  max-width: 1159.5px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.all-right-reserved{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.all-right-reserved p{
+  font-size: 1.25rem;
+  font-weight: 400;
 }

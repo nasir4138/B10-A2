@@ -2,7 +2,8 @@
 
     .header-container , 
     .change-habit-container, 
-    .run-extra-container,.cal-container {
+    .run-extra-container,
+    .cal-container, .footer {
         flex-direction: column;
     }
     .menu-item{
@@ -83,4 +84,12 @@
       .meet-team-container-card{
         grid-template-columns: 1fr;
       }
+      /* footer  */
+      .footer{
+        margin-left: 20px;
+      }
+      .get-started1{
+        margin-top: 30px;
+      }
+
 }
