@@ -31,10 +31,13 @@
   }
   .btn-primary{
     color: white;
-    text-align: center;
     
+    
+    cursor: pointer;
     border: none;
     font-size: 1.2rem;
+    text-align: center;
+    
     font-weight: 600;
     padding: 16px 40px 16px 40px;
     border-radius: 42px;
@@ -127,6 +130,7 @@
     display: flex;
     gap: 14px;
     position: relative;
+    text-align: center;
   }
   .black-btn{
     background-color: #111111b2;
@@ -155,29 +159,32 @@
     font-size: 2.8rem;
     font-weight: 900;
   }
-  .red-circle i{
-    font-size: 50px;
-    color:rgb(230, 83, 60);
-   
-  }
+  
   .video-tutorial-logo{
     width: 60%;
     max-height: 96px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     color: #fff;
-   display: flex;
-   gap: 10px;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
     font-weight: 800;
     padding: 15px 0 ;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(184, 169, 169, 0.171);
     position: absolute ;
-    bottom: 65px;
+    bottom: 80px;
     right: 256px;
 
+  }
+ 
+  .red-circle i{
+    width: 80%;
+    font-size: 3rem;
+    color:rgb(230, 83, 60);
+   
   }
 
   /* main section start here  */

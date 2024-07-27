@@ -41,6 +41,11 @@
         height: 55px;
         
     }
+    .btn-primary{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .club-hide{
         display: none;
     }
