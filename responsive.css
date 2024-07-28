@@ -3,7 +3,8 @@
     .header-container , 
     .change-habit-container, 
     .run-extra-container,
-    .cal-container, .footer {
+    .cal-container, 
+    .footer, .package-card {
         flex-direction: column;
     }
     .menu-item{
