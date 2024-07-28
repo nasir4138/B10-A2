@@ -126,8 +126,11 @@
     margin-bottom: 1.75rem;
   }
   .header-btn{
-    /* max-width: 100%; */
+    
+    max-width: 462px;
+    
     display: flex;
+    justify-content:space-between;
     gap: 14px;
     position: relative;
     text-align: center;
@@ -137,7 +140,11 @@
     border: 1px solid white;
   }
   .header-container-img{
+    
     position: relative;
+  }
+  .header-container-img img{
+    width: 100%;
   }
   .workout-videos{
     width: 60%;
