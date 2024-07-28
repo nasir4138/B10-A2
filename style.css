@@ -370,8 +370,10 @@
   /* meet our team container  */
   .meet-team-container{
     max-width: 1260px;
-    margin: 90px auto;
+    margin: 0 auto;
     
+    margin-top: 90px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -445,7 +447,7 @@
 }
 .our-package-container>h1{
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .our-package-container h1{
   color: white;
