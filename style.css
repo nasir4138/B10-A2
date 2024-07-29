@@ -301,6 +301,7 @@
   /* run extra container end  */
   /* bmi calculator chart start here  */
   .bmi-cal{
+    max-width: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -334,15 +335,19 @@
     
     
   }
+  .cal-table{
+    max-width: 80%;
+  }
   table {
     border-collapse: collapse;
     margin: 30px 0;
+    margin-top: 40px;
     font-size: 1em;
-    min-width: 300px;
+    max-width: 100%;
     border: 1px solid #555;
   }
   th, td {
-      padding: 12px 15px;
+      padding: 12px 25px;
       border: 1px solid #998c8c67;
   }
   th {
@@ -355,7 +360,11 @@
   }
 
   .cal-ur-bmi{
-    width: 60%;
+    max-width: 60%;
+  }
+  .btn-cal{
+    max-width: 90%;
+    padding: 15px 4rem;
   }
   .cal-ur-bmi h2{
     margin-bottom: 20px;
@@ -366,7 +375,7 @@
     grid-template-columns:1fr 1fr;
     gap: 10px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .full-width{
     grid-column: span 2;
