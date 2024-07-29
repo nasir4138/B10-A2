@@ -551,13 +551,16 @@ footer{
   font-size: 4.4rem;
   font-weight: 800;
   margin-bottom: 20px;
+  max-width: 90%;
+  
+  
 }
 .footer h3 {
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .footer{
