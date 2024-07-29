@@ -115,6 +115,7 @@
   }
   .headline{
     justify-content: flex-start;
+    
     width: 100%;
     
     
@@ -129,6 +130,7 @@
   .headline>p{
     margin-top:1.75rem ;
     margin-bottom: 1.75rem;
+    text-align:start;
   }
   .header-btn{
     
@@ -195,7 +197,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 800;
-    padding: 15px 10px ;
+    padding: 10px 10px ;
     border-radius: 8px;
     background: rgba(73, 71, 71, 0.39);
     position: absolute ;
@@ -555,6 +557,7 @@ footer{
   
   display: flex;
   justify-content: space-around;
+  gap: 20px;
  
 }
 .footer-list{
