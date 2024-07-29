@@ -301,11 +301,12 @@
   /* run extra container end  */
   /* bmi calculator chart start here  */
   .bmi-cal{
-    
+    text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 100px 20px;
-    justify-content: flex-start;
+    margin: 50px auto;
+    margin-top: 80px;
+    justify-content: center;
     align-items: center;
   }
   .bmi-cal-chart{
@@ -328,7 +329,7 @@
   .cal-h3-font{
     color: rgb(240, 248, 255);
     font-size: 1.75em;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 20px;
     
     
