@@ -20,11 +20,12 @@
     }
     .headline{
         margin-left: 20px;
-        text-align:start;
+        text-align:center;
     }
     .headline h1{
+        text-align: left;
         font-size: 2rem;
-        /* line-height: 50px; */
+        line-height: 50px;
     }
     .headline p{
         margin-right: 10px;

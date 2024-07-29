@@ -115,16 +115,13 @@
   }
   .headline{
     justify-content: flex-start;
-    
     width: 100%;
-    
-    
-    
   }
   .headline h1{
     color: rgb(255, 255, 255);
     font-size: 4.87rem;
     font-weight: 900;
+    line-height: 100px;
 
   }
   .headline>p{
@@ -134,7 +131,7 @@
   }
   .header-btn{
     
-    max-width: 100%;
+    max-width: 90%;
     
     display: flex;
     justify-content:flex-start;
@@ -533,7 +530,7 @@
 
 /* footer  */
 footer{
-  
+  max-width: 100%;
   padding-top: 50px;
 }
 .footer-head{
