@@ -23,11 +23,11 @@
         text-align:start;
     }
     .headline h1{
-        
         font-size: 2rem;
-        line-height: 50px;
-        
-        
+        /* line-height: 50px; */
+    }
+    .headline p{
+        margin-right: 10px;
     }
    
     .miama-font{
