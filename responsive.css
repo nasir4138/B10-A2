@@ -36,9 +36,10 @@
     }
     .header-btn{
         margin: 0 auto;
-        margin-right: 15px;
+        /* margin-right: 15px; */
         display: flex;
-        justify-content:space-around;
+        justify-content:center;
+        /* align-items: center; */
         height: 55px;
         
     }
@@ -50,14 +51,14 @@
     .club-hide{
         display: none;
     }
-    .header-container-img{
+    .header-container-img-card{
         margin-top: 45px;
     }
     .workout-videos{
-        
-        width:40%;
-        right: 70px;
-        top: 30px;
+        padding: 20px 10px;
+        max-width:100%;
+        right: 60px;
+        top: 80px;
 
     }
     .workout-videos h1{
@@ -66,9 +67,9 @@
 
     }
     .video-tutorial-logo{
-        width: 40%;
+        max-width: 100%;
         left: 30px;
-        top: 340px;
+        top: 380px;
 
     }
 
