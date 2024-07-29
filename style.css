@@ -111,7 +111,7 @@
     gap: 20px;
     
     
-    width: 100%;
+    /* width: 100%; */
   }
   .headline{
     justify-content: flex-start;

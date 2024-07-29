@@ -12,15 +12,16 @@
     }
     .icon-bar{
         display: block;
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
     .navbar{
         justify-content: space-between;
         margin: 0 20px;
     }
     .headline{
-        margin-left: 20px;
+        padding-left: 20px;
         text-align:center;
+        max-width: 100%;
     }
     .headline h1{
         text-align: left;
@@ -53,7 +54,7 @@
         display: none;
     }
     .header-container-img-card{
-        margin-top: 45px;
+        margin: 0 20px;
     }
     .workout-videos{
         padding: 20px 10px;
