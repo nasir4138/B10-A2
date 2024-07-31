@@ -169,13 +169,15 @@
     color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-weight: 800;
     padding:10px  15px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.034);
+    background: rgba(255, 255, 255, 0.116);
     position: absolute ;
     top: 140px ;
-    right: 100px;
+    right: 50px;
 
   }
   .workout-videos h1{
@@ -196,7 +198,7 @@
     font-weight: 800;
     padding: 10px 10px ;
     border-radius: 8px;
-    background: rgba(73, 71, 71, 0.39);
+    background: rgba(73, 71, 71, 0.671);
     position: absolute ;
     bottom: 80px;
     left: 30px;
