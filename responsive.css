@@ -123,3 +123,55 @@
       }
 
 }
+
+
+
+/* for tablet devices  */
+
+@media screen and (min-width:576px) and (max-width:1080px) {
+    .header-container, .cal-container{
+        flex-direction: column;
+    }
+    .navbar{
+        /* justify-content: space-around; */
+        margin: 0 20px;
+    }
+    .menu-item{
+        max-width: 100%;
+        gap: 10px;
+    }
+    .menu-item li{
+        margin-right: 0;
+        
+    }
+    .headline h1, .head-p, button{
+        /* width: auto; */
+        margin-left:50px;
+
+    }
+    .change-habit-container-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        gap: 50px;
+        column-gap: 100px;
+        width: 90%;
+    }
+    .run-extra-container{
+        justify-items: center;
+    }
+    .cal-container{
+        justify-content: flex-start;
+        margin-left: 50px;
+        /* align-items: center; */
+    }
+    .package-card, .footer, 
+    .meet-team-container-card, 
+    .run-extra-container,
+    .change-habit-heading,
+    .headline{
+       
+        margin: 0 30px;
+    }
+
+}
